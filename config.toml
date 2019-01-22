@@ -2,3 +2,6 @@ baseURL = "http://ndtho8205.github.io/"
 languageCode = "en-us"
 title = "Black Rabbit"
 theme = "blog-theme"
+
+enableemoji = true
+
