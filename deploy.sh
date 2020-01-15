@@ -2,7 +2,7 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-find . \! -name '.git' -delete
+find ./public/ \! -name '.git' -delete
 
 # build the project
 hugo --minify --gc
