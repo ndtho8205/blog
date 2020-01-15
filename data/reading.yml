@@ -1,0 +1,72 @@
+reading:
+  title: "Sách trên giường"
+  books:
+    - name: "The Witcher II: Time of Contempt"
+      author: "‎Andrzej Sapkowski"
+    - name: "Dive Into Deep Learning"
+      author: "Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola"
+    - name: "Mật Mã Maya"
+      author: "Brian D'Amato"
+
+toRead:
+  title: "Sách sắp đọc"
+  books:
+    - name: "Con Chó Khoang Chạy Ven Bờ Biển"
+      author: "Chinghiz Aitmatov"
+    - name: "Vĩnh Biệt Gunxarư"
+      author: "Chinghiz Aitmatov"
+    - name: "Ngàn mặt trời rực rỡ"
+      author: "Khailed Hosseini"
+    - name: "Người đua diều"
+      author: "Khailed Hosseini"
+    - name: "Tam Quốc Diễn Nghĩa"
+      author: "La Quán Trung"
+
+alreadyRead:
+  title: "Sách trên kệ"
+  years:
+    - year: 2020
+      books:
+        - name: "The Witcher III: Blood of Elves"
+          author: "‎Andrzej Sapkowski"
+        - name: "The Witcher II: Sword of Destiny"
+          author: "‎Andrzej Sapkowski"
+    - year: 2019
+      books:
+        - name: "The Witcher I: The Last Wish"
+          author: "Andrzej Sapkowski"
+        - name: "Lời Nguyền Lỗ Ban (tập 1 - 6)"
+          author: "Viên Thái Cực"
+        - name: "Con Tàu Trắng"
+          author: "Chinghiz Aitmatov"
+        - name: "Vang Bóng Một Thời"
+          author: "Nguyễn Tuân"
+        - name: "Vũ Trung Tùy Bút"
+          author: "Phạm Đình Hổ"
+        - name: "Lão Già Mê Đọc Truyện Tình"
+          author: "Luis Sepulveda"
+        - name: "Và Một Ngày Dài Hơn Thế Kỷ"
+          author: "Chinghiz Aitmatov"
+        - name: "Mắt Biếc"
+          author: "Nguyễn Nhật Ánh"
+        - name: "Ông Trăm Tuổi Trèo Qua Cửa Sổ Và Biến Mất"
+          author: "Jonas Jonasson"
+        - name: "Nguồn Cội"
+          author: "Dan Brown"
+          Keyword: Winston
+        - name: "Những Cuộc Phiêu Lưu Của Tom Shawyer"
+          author: "Mark Twain"
+        - name: "Hỏa Ngục"
+          author: "Dan Brown"
+          keyword: Dante
+        - name: "Biểu Tượng Thất Truyền"
+          author: "Dan Brown"
+          keyword: Hội Tam Điểm
+        - name: "Thiên Thần Và Ác Quỷ"
+          author: "Dan Brown"
+          keyword: hội Illuminati
+        - name: "Mật Mã Da Vinci"
+          author: "Dan Brown"
+          keyword: Chén Thánh
+        - name: "Eragon (Eragon, Eldest, Brisingr, Inheritance)"
+          author: "Christopher Paolini"

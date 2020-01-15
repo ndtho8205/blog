@@ -1,0 +1,19 @@
+- working:
+    - sideProjects:
+        - name: ""
+          description: ""
+          image: ""
+          link: ""
+
+    - blogging:
+        - name: ""
+        - description: ""
+
+    - learning:
+        - description: ""
+
+- finished:
+    - name: ""
+      description: ""
+      image: ""
+      link: ""

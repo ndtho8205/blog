@@ -1,7 +1,55 @@
 baseURL = "https://ndtho8205.github.io/"
+title = "Rabbit"
 languageCode = "en-us"
-title = "Black Rabbit"
 theme = "blog-theme"
 
-enableemoji = true
+paginate = 100
+disqusShortname = ""
+googleAnalytics = ""
+enableEmoji = true
+
+
+
+[author]
+  name = "Tho Nguyen"
+  avatar = ""
+  github = "https://github.com/ndtho8205"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/tho-nguyen-duc-a36a73100/"
+
+[params]
+  subtitle = ""
+  description = ""
+  favicon = "images/favicon.ico"
+  logo = "images/logo.svg"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "reading"
+    name = "Reading"
+    url = "/reading/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+[taxonomies]
+  categories = "categories"
+  series = "series"
+  tags = "tags"
 
