@@ -8,8 +8,6 @@ disqusShortname = ""
 googleAnalytics = ""
 enableEmoji = true
 
-
-
 [author]
   name = "Tho Nguyen"
   avatar = ""
@@ -18,8 +16,6 @@ enableEmoji = true
   linkedin = "https://www.linkedin.com/in/tho-nguyen-duc-a36a73100/"
 
 [params]
-  subtitle = ""
-  description = ""
   favicon = "images/favicon.ico"
   logo = "images/logo.svg"
 
