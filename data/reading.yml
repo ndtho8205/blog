@@ -1,7 +1,7 @@
 reading:
   title: "Sách trên giường"
   books:
-    - name: "The Witcher II: Time of Contempt"
+    - name: "The Witcher IV: Time of Contempt"
       author: "‎Andrzej Sapkowski"
     - name: "Dive Into Deep Learning"
       author: "Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola"
@@ -11,6 +11,12 @@ reading:
 toRead:
   title: "Sách sắp đọc"
   books:
+    - name: "The Witcher V: Baptism of Fire"
+      author: "‎Andrzej Sapkowski"
+    - name: "The Witcher VI: The Tower of The Swallow"
+      author: "‎Andrzej Sapkowski"
+    - name: "The Witcher VII: The Lady of The Lake"
+      author: "‎Andrzej Sapkowski"
     - name: "Con Chó Khoang Chạy Ven Bờ Biển"
       author: "Chinghiz Aitmatov"
     - name: "Vĩnh Biệt Gunxarư"
