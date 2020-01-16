@@ -17,6 +17,17 @@ enableEmoji = true
   series = "series"
   tags = "tags"
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe = true
+
 [menu]
   [[menu.main]]
     identifier = "blog"
@@ -70,11 +81,11 @@ enableEmoji = true
 [[author.publications]]
   name = "Bidirectional LSTM for Continuously Predicting QoE in HTTP Adaptive Streaming"
   authors = "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
-  dest = "Proceedings of the 2019 2nd International Conference on Information Science and Systems (pp. 156-160). ACM."
+  dest = "Proceedings of the 2019 2nd International Conference on Information Science and Systems (pp. 156-160). ACM"
   link = ""
 
 [[author.publications]]
-  name = "Modeling of cumulative QoE in on-demand video services: Role of memory effect and degree of interest."
+  name = "Modeling of cumulative QoE in on-demand video services: Role of memory effect and degree of interest"
   authors = "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
-  dest = "Future Internet, 11(8), 171."
+  dest = "Future Internet, 11(8), 171"
   link = ""

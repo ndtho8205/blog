@@ -19,17 +19,17 @@ Hãy xem xét ví dụ dưới đây.
 using namespace std;
 
 class MyClass {
-public:
-MyClass() { //constructor
-cout << "Not in main!" << endl;
-}
+  public:
+    MyClass() { //constructor
+      cout << "Not in main!" << endl;
+    }
 };
 
 MyClass globalObject;
 
 int main() {
-cout << "In main!" << endl;
-return 0;
+  cout << "In main!" << endl;
+  return 0;
 }
 ```
 
