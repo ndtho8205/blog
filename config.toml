@@ -13,9 +13,9 @@ enableEmoji = true
   logo = "images/logo.svg"
 
 [taxonomies]
-  categories = "categories"
+  category = "categories"
+  tag = "tags"
   series = "series"
-  tags = "tags"
 
 [markup]
   [markup.highlight]
@@ -58,34 +58,3 @@ enableEmoji = true
   avatar = "images/avatar.jpg"
   CV = ""
 
-[[author.affiliation]]
-    name = "Shibaura Institute of Technology"
-    position = "Master's Student"
-    contact = "mg18502@shibaura-it.ac.jp"
-
-[[author.social]]
-    name = "GitHub"
-    icon = "images/github.svg"
-    url = "https://github.com/ndtho8205"
-[[author.social]]
-    name = "LinkedIn"
-    icon = "images/linkedin.svg"
-    url = "https://www.linkedin.com/in/tho-nguyen-duc-a36a73100/"
-
-[[author.projects]]
-  [[author.projects.project]]
-    name = ""
-    description = ""
-    link = ""
-
-[[author.publications]]
-  name = "Bidirectional LSTM for Continuously Predicting QoE in HTTP Adaptive Streaming"
-  authors = "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
-  dest = "Proceedings of the 2019 2nd International Conference on Information Science and Systems (pp. 156-160). ACM"
-  link = ""
-
-[[author.publications]]
-  name = "Modeling of cumulative QoE in on-demand video services: Role of memory effect and degree of interest"
-  authors = "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
-  dest = "Future Internet, 11(8), 171"
-  link = ""
