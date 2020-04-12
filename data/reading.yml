@@ -1,8 +1,6 @@
 reading:
   title: "Sách trên giường"
   books:
-    - name: "The Witcher IV: Time of Contempt"
-      author: "‎Andrzej Sapkowski"
     - name: "Dive Into Deep Learning"
       author: "Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola"
     - name: "Mật Mã Maya"
@@ -12,15 +10,17 @@ toRead:
   title: "Sách sắp đọc"
   books:
     - name: "The Witcher V: Baptism of Fire"
-      author: "‎Andrzej Sapkowski"
+      author: "Andrzej Sapkowski"
     - name: "The Witcher VI: The Tower of The Swallow"
-      author: "‎Andrzej Sapkowski"
+      author: "Andrzej Sapkowski"
     - name: "The Witcher VII: The Lady of The Lake"
-      author: "‎Andrzej Sapkowski"
+      author: "Andrzej Sapkowski"
     - name: "Con Chó Khoang Chạy Ven Bờ Biển"
       author: "Chinghiz Aitmatov"
     - name: "Vĩnh Biệt Gunxarư"
       author: "Chinghiz Aitmatov"
+    - name: "Tôi tự học"
+      author: "Thu Giang, Nguyễn Duy Cần"
     - name: "Ngàn mặt trời rực rỡ"
       author: "Khailed Hosseini"
     - name: "Người đua diều"
@@ -33,6 +33,8 @@ alreadyRead:
   years:
     - year: 2020
       books:
+        - name: "The Witcher IV: Time of Contempt"
+          author: "Andrzej Sapkowski"
         - name: "The Witcher III: Blood of Elves"
           author: "‎Andrzej Sapkowski"
         - name: "The Witcher II: Sword of Destiny"
