@@ -2,38 +2,65 @@ name: Deploy to ndtho8205.github.io
 
 on:
   push:
-    branches: [ master ]
+    branches: [dev]
   pull_request:
-    branches: [ master ]
+    branches: [dev]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Checkout `blog` repository
-      uses: actions/checkout@v2
-      with:
-        submodules: true
-        path: blog
+      - name: Fetch `blog` repository
+        uses: actions/checkout@v2
+        with:
+          ref: 'dev'
+          ssh-key: "${{ secrets.PRIVATE_KEY }}"
+          submodules: true
+          path: blog
 
-    - name: Checkout `blog-theme` repository
-      uses: actions/checkout@v2
-      with:
-        path: blog-theme
+      - name: Fetch `blog-theme` repository
+        uses: actions/checkout@v2
+        with:
+          repository: ndtho8205/blog-theme
+          ref: 'dev'
+          path: blog-theme
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.71.1'
-        extended: true
-        
-    - name: Clean `public` diretory
-      run: find $GITHUB_WORKSPACE/blog/public/ \! -name '.git' -delete
-    
-    - name: Build hugo
-      run: cd $GITHUB_WORKSPACE/blog && hugo --minify --gc
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
 
-    - name: Show tree
-      run: tree
+      - name: Setup Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Clean `public` directory
+        run: |
+          cd $GITHUB_WORKSPACE/blog/
+          git submodule update --init --remote
+          find ./public/ \! -name '.git' -type f -delete
+
+      - name: Build blog to `public` directory
+        run: |
+          cd $GITHUB_WORKSPACE/blog
+          hugo --minify --gc
+          ls -la public
+
+      - name: Commit and push changes to `ndtho8205.github.io`
+        run: |
+          cd $GITHUB_WORKSPACE/blog/public
+          git status
+          git add .
+          git commit -m "Rebuilding site $(date)"
+          git push --force origin HEAD:master
+
+      - name: Commit and push changes to `blog` repository
+        run: |
+          cd $GITHUB_WORKSPACE/blog/
+          git status
+          git add .
+          git commit -m "Update `public` submodule."
+          git push
