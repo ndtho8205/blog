@@ -54,7 +54,7 @@ jobs:
           cd $GITHUB_WORKSPACE/blog/public
           git status
           git add .
-          git commit -m "Rebuilding site $(date)"
+          git diff-index --quiet HEAD -- || git commit -m "Rebuilding site $(date)"
           git push --force origin HEAD:master
 
       - name: Commit and push changes to `blog` repository
@@ -62,5 +62,5 @@ jobs:
           cd $GITHUB_WORKSPACE/blog/
           git status
           git add .
-          git commit -m "Update `public` submodule."
+          git diff-index --quiet HEAD -- || git commit -m "Update `public` submodule."
           git push
