@@ -1,7 +1,7 @@
 affiliation:
-  - name: "Shibaura Institute of Technology"
-    position: "Master's Student"
-    contact: "mg18502@shibaura-it.ac.jp"
+  name: "Shibaura Institute of Technology"
+  position: "Doctor's student"
+  contact: "nb20501@shibaura-it.ac.jp"
 
 social:
   - name: "GitHub"
@@ -11,17 +11,24 @@ social:
     icon: "images/linkedin.svg"
     url: "https://www.linkedin.com/in/tho-nguyen-duc-a36a73100/"
 
-projects:
-  - name: ""
-    description: ""
-    link: ""
+education:
+  - school: "Shibaura Institute of Technology, Japan"
+    major: "Global Course of Engineering and Science"
+    degree: "Master of Science"
+  - school: "Ho Chi Minh City University of Technology, Vietnam"
+    major: "Honors program, Computer Science"
+    degree: "Bachelor of Engineering"
 
-publications:
-  - name: "Bidirectional LSTM for Continuously Predicting QoE in HTTP Adaptive Streaming"
+publication:
+  - name: "Convolutional Neural Networks for  Continuous QoE Prediction in Video Streaming Services"
     authors: "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
-    dest: "Proceedings of the 2019 2nd International Conference on Information Science and Systems (pp. 156-160). ACM"
+    dest: "IEEE Access, vol. 8, pp. 116268-116278"
     link: ""
   - name: "Modeling of cumulative QoE in on-demand video services: Role of memory effect and degree of interest"
     authors: "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
     dest: "Future Internet, 11(8), 171"
+    link: ""
+  - name: "Bidirectional LSTM for Continuously Predicting QoE in HTTP Adaptive Streaming"
+    authors: "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
+    dest: "Proceedings of the 2019 2nd International Conference on Information Science and Systems, pp. 156-160"
     link: ""

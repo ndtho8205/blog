@@ -1,18 +1,16 @@
 reading:
   title: "Sách đang đọc"
   books:
-    - name: "Dive Into Deep Learning"
-      author: "Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola"
-    - name: "Mật Mã Maya"
-      author: "Brian D'Amato"
+    - name: "The Witcher VI: The Tower of The Swallow"
+      author: "Andrzej Sapkowski"
 
 toRead:
   title: "Sách sắp đọc"
   books:
-    - name: "The Witcher V: Baptism of Fire"
-      author: "Andrzej Sapkowski"
-    - name: "The Witcher VI: The Tower of The Swallow"
-      author: "Andrzej Sapkowski"
+    - name: "Giamilia - Truyện núi đồi và thảo nguyên"
+      author: "Chinghiz Aitmatov"
+    - name: "Mật Mã Maya"
+      author: "Brian D'Amato"
     - name: "The Witcher VII: The Lady of The Lake"
       author: "Andrzej Sapkowski"
     - name: "Con Chó Khoang Chạy Ven Bờ Biển"
@@ -35,12 +33,26 @@ toRead:
       author: "Nguyễn Phi Vân"
     - name: "Tam Quốc Diễn Nghĩa"
       author: "La Quán Trung"
+    - name: "Ở Quán Cà Phê Của Tuổi Trẻ Lạc Lối"
+      author: "Patrick Modiano"
+    - name: "Phố Của Những Cửa Hiệu U Tối"
+      author: "Patrick Modiano"
+    - name: "Từ Sâu Thẳm Lãng Quên"
+      author: "Patrick Modiano"
+    - name: "Để Em Khỏi Lạc Trong Khu Phố"
+      author: "Patrick Modiano"
 
 alreadyRead:
-  title: "Sách trên kệ"
+  title: "Sách đã đọc"
   years:
     - year: 2020
       books:
+        - name: "The Witcher V: Baptism of Fire"
+          author: "Andrzej Sapkowski"
+        - name: "Phía Sau Nghi Can X"
+          author: "Higashino Keigo"
+        - name: "Bạch Dạ Hành"
+          author: "Higashino Keigo"
         - name: "The Witcher IV: Time of Contempt"
           author: "Andrzej Sapkowski"
         - name: "The Witcher III: Blood of Elves"
@@ -69,7 +81,7 @@ alreadyRead:
           author: "Jonas Jonasson"
         - name: "Nguồn Cội"
           author: "Dan Brown"
-          Keyword: Winston
+          keyword: Winston
         - name: "Những Cuộc Phiêu Lưu Của Tom Shawyer"
           author: "Mark Twain"
         - name: "Hỏa Ngục"
