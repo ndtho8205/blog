@@ -1,7 +1,7 @@
 reading:
   title: "Sách đang đọc"
   books:
-    - name: "The Witcher VI: The Tower of The Swallow"
+    - name: "The Witcher VII: The Lady of The Lake"
       author: "Andrzej Sapkowski"
 
 toRead:
@@ -11,8 +11,6 @@ toRead:
       author: "Chinghiz Aitmatov"
     - name: "Mật Mã Maya"
       author: "Brian D'Amato"
-    - name: "The Witcher VII: The Lady of The Lake"
-      author: "Andrzej Sapkowski"
     - name: "Con Chó Khoang Chạy Ven Bờ Biển"
       author: "Chinghiz Aitmatov"
     - name: "Vĩnh Biệt Gunxarư"
@@ -45,6 +43,10 @@ toRead:
 alreadyRead:
   title: "Sách đã đọc"
   years:
+    - year: 2021
+      books:
+        - name: "The Witcher VI: The Tower of The Swallow"
+          author: "Andrzej Sapkowski"
     - year: 2020
       books:
         - name: "The Witcher V: Baptism of Fire"
