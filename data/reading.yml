@@ -1,12 +1,14 @@
 reading:
   title: "Sách đang đọc"
   books:
-    - name: "The Witcher VII: The Lady of The Lake"
-      author: "Andrzej Sapkowski"
+    - name: "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya"
+      author: "Higashino Keigo"
 
 toRead:
   title: "Sách sắp đọc"
   books:
+    - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
+      author: "Yagisawa Satoshi"
     - name: "Giamilia - Truyện núi đồi và thảo nguyên"
       author: "Chinghiz Aitmatov"
     - name: "Mật Mã Maya"
@@ -45,6 +47,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "The Witcher VII: The Lady of The Lake"
+          author: "Andrzej Sapkowski"
         - name: "The Witcher VI: The Tower of The Swallow"
           author: "Andrzej Sapkowski"
     - year: 2020
