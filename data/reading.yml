@@ -1,11 +1,11 @@
 reading:
-  title: "Sách đang đọc"
+  title: "Reading"
   books:
     - name: "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya"
       author: "Higashino Keigo"
 
 toRead:
-  title: "Sách sắp đọc"
+  title: "To Read"
   books:
     - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
       author: "Yagisawa Satoshi"
@@ -43,7 +43,7 @@ toRead:
       author: "Patrick Modiano"
 
 alreadyRead:
-  title: "Sách đã đọc"
+  title: "Read"
   years:
     - year: 2021
       books:
