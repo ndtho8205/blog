@@ -1,12 +1,14 @@
 reading:
   title: "Reading"
   books:
-    - name: "Homo Sapiens"
-      author: "Yuval Noah Harari"
+    - name: "Software Engineering at Google"
+      author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
 
 toRead:
   title: "To Read"
   books:
+    - name: "Homo Sapiens"
+      author: "Yuval Noah Harari"
     - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
       author: "Yagisawa Satoshi"
     - name: "Giamilia - Truyện núi đồi và thảo nguyên"
