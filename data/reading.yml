@@ -1,8 +1,8 @@
 reading:
   title: "Reading"
   books:
-    - name: "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya"
-      author: "Higashino Keigo"
+    - name: "Homo Sapiens"
+      author: "Yuval Noah Harari"
 
 toRead:
   title: "To Read"
@@ -25,8 +25,6 @@ toRead:
       author: "Khailed Hosseini"
     - name: "Một Đời Như Kẻ Tìm Đường"
       author: "Phan Văn Trường"
-    - name: "Homo Sapiens"
-      author: "Yuval Noah Harari"
     - name: "Hành Trình Trưởng Thành Đích Thực"
       author: "M.Scott Peck"
     - name: "Tôi, Tương Lai & Thế Giới"
@@ -47,6 +45,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya"
+          author: "Higashino Keigo"
         - name: "The Witcher VII: The Lady of The Lake"
           author: "Andrzej Sapkowski"
         - name: "The Witcher VI: The Tower of The Swallow"
