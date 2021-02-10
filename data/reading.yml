@@ -47,6 +47,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "Từ Trái Đất Đến Mặt Trăng"
+          author: "Jules Verne"
         - name: "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya"
           author: "Higashino Keigo"
         - name: "The Witcher VII: The Lady of The Lake"
