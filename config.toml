@@ -5,12 +5,12 @@ theme = "blog-theme"
 
 paginate = 100
 disqusShortname = ""
-googleAnalytics = ""
 enableEmoji = true
 
 [params]
   favicon = "images/favicon.ico"
   logo = "images/logo.svg"
+  panelbearAnalytics = "1pfyDmOljAe"
 
 [taxonomies]
   category = "categories"
