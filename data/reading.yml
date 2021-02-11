@@ -3,14 +3,14 @@ reading:
   books:
     - name: "Software Engineering at Google"
       author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
+    - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
+      author: "Yagisawa Satoshi"
 
 toRead:
   title: "To Read"
   books:
     - name: "Homo Sapiens"
       author: "Yuval Noah Harari"
-    - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
-      author: "Yagisawa Satoshi"
     - name: "Giamilia - Truyện núi đồi và thảo nguyên"
       author: "Chinghiz Aitmatov"
     - name: "Mật Mã Maya"
@@ -47,6 +47,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "Bay Quanh Mặt Trăng"
+          author: "Jules Verne"
         - name: "Từ Trái Đất Đến Mặt Trăng"
           author: "Jules Verne"
         - name: "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya"
