@@ -3,8 +3,8 @@ reading:
   books:
     - name: "Software Engineering at Google"
       author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
-    - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
-      author: "Yagisawa Satoshi"
+    - name: "80 Ngày Vòng Quanh Thế Giới"
+      author: "Jules Verne"
 
 toRead:
   title: "To Read"
@@ -47,6 +47,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
+          author: "Yagisawa Satoshi"
         - name: "Bay Quanh Mặt Trăng"
           author: "Jules Verne"
         - name: "Từ Trái Đất Đến Mặt Trăng"
