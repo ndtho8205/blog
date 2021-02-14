@@ -1,6 +1,7 @@
-affiliation:
-  name: "Shibaura Institute of Technology"
+summary:
+  job_title: "AI Software Engineer · Web Developer"
   position: "PhD student"
+  university: "Shibaura Institute of Technology"
   contact: "nb20501@shibaura-it.ac.jp"
 
 social:
@@ -13,11 +14,37 @@ social:
 
 education:
   - school: "Shibaura Institute of Technology, Japan"
+    major: "Functional Control Systems Course"
+    degree: "Doctor of Philosophy"
+    from: "Sep 2020"
+    to: "2023 (expected)"
+  - school: "Shibaura Institute of Technology, Japan"
     major: "Global Course of Engineering and Science"
     degree: "Master of Science"
+    from: "Sep 2018"
+    to: "Sep 2020"
   - school: "Ho Chi Minh City University of Technology, Vietnam"
     major: "Honors program, Computer Science"
     degree: "Bachelor of Engineering"
+    from: "Sep 2014"
+    to: "Oct 2018"
+
+work_experience:
+  - title: "Software Engineer"
+    company: "株式会社 eftax, Japan"
+    type: "Part-time"
+    from: "Oct 2020"
+    to: "Present"
+  - title: "AI Software Engineer"
+    company: "Axon Active Vietnam"
+    type: "Full-time"
+    from: "Jan 2018"
+    to: "Aug 2018"
+  - title: "Web Developer"
+    company: "GEEK Up, Vietnam"
+    type: "Internship"
+    from: "Jun 2017"
+    to: "Aug 2017"
 
 publication:
   - name: "Convolutional Neural Networks for  Continuous QoE Prediction in Video Streaming Services"
@@ -32,3 +59,21 @@ publication:
     authors: "Tho Nguyen Duc, Chanh Tran Minh, Phan Xuan Tan, Kamioka Eiji"
     dest: "Proceedings of the 2019 2nd International Conference on Information Science and Systems, pp. 156-160"
     link: ""
+
+skills:
+  - title: "Programming Languages"
+    categories:
+      - title: "Intermediate"
+        items: ["Python", "C/C++", "JavaScript", "TypeScript"]
+      - title: "Basics"
+        items: ["Rust", "Golang", "Kotlin", "Java Core"]
+  - title: "Libraries & Frameworks"
+    categories:
+      - title: "Deep Learning"
+        items: ["TensorFlow", "Keras", "PyTorch", "OpenCV"]
+      - title: "Web Development"
+        items: ["React", "Vue.js", "Tailwind CSS", "Express", "Node.js"]
+  - title: "Tools & Platforms"
+    items: ["Git", "Docker", "Jenkins", "Prometheus", "Grafana", "Netlify", "Heroku"]
+  - title: "Design"
+    items: ["Figma"]
