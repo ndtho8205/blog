@@ -1,14 +1,14 @@
 reading:
   title: "Reading"
   books:
-    - name: "Software Engineering at Google"
-      author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
-    - name: "80 Ngày Vòng Quanh Thế Giới"
-      author: "Jules Verne"
+    - name: "Designing Data-Intensive Applications"
+      author: "Martin Kleppmann"
 
 toRead:
   title: "To Read"
   books:
+    - name: "Software Engineering at Google"
+      author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
     - name: "Homo Sapiens"
       author: "Yuval Noah Harari"
     - name: "Giamilia - Truyện núi đồi và thảo nguyên"
@@ -47,6 +47,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "80 Ngày Vòng Quanh Thế Giới"
+          author: "Jules Verne"
         - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
           author: "Yagisawa Satoshi"
         - name: "Bay Quanh Mặt Trăng"
