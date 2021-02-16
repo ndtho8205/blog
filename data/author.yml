@@ -74,6 +74,6 @@ skills:
       - title: "Web Development"
         items: ["React", "Vue.js", "Tailwind CSS", "Express", "Node.js"]
   - title: "Tools & Platforms"
-    items: ["Git", "Docker", "Jenkins", "Prometheus", "Grafana", "Netlify", "Heroku"]
+    items: ["Git", "Docker", "Jenkins", "Prometheus", "Loki", "Grafana", "Netlify", "Heroku"]
   - title: "Design"
     items: ["Figma"]

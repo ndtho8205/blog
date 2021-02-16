@@ -3,10 +3,14 @@ reading:
   books:
     - name: "Designing Data-Intensive Applications"
       author: "Martin Kleppmann"
+    - name: "Những Người Khốn Khổ"
+      author: "Victor Hugo"
 
 toRead:
   title: "To Read"
   books:
+    - name: "Hóa Thân"
+      author: "Franz Kafka"
     - name: "Software Engineering at Google"
       author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
     - name: "Homo Sapiens"
