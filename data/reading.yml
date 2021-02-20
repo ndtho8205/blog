@@ -11,6 +11,8 @@ toRead:
   books:
     - name: "Hóa Thân"
       author: "Franz Kafka"
+    - name: "Việt Nam Một Thiên Lịch Sử"
+      author: "Nguyễn Khắc Viện"
     - name: "Software Engineering at Google"
       author: "Titus Winters, Tom Manshreck, and Hyrum Wright"
     - name: "Homo Sapiens"
