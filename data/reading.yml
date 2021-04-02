@@ -9,6 +9,14 @@ reading:
 toRead:
   title: "To Read"
   books:
+    - name: "Hai Số Phận"
+      author: "Carlos Ruiz"
+    - name: "Bóng Hình Của Gió"
+      author: "Carlos Ruiz"
+    - name: "Suối Nguồn"
+      author: "Ayn Rand"
+    - name: "21 Lessons for the 21st Century"
+      author: "Yuval Noah Harari"
     - name: "Hóa Thân"
       author: "Franz Kafka"
     - name: "Việt Nam Một Thiên Lịch Sử"
