@@ -1,14 +1,18 @@
 reading:
   title: "Reading"
   books:
+    - name: "Storytelling with Data"
+      author: "Cole Nussbaumer Knaflic"
     - name: "Designing Data-Intensive Applications"
       author: "Martin Kleppmann"
-    - name: "Những Người Khốn Khổ"
-      author: "Victor Hugo"
 
 toRead:
   title: "To Read"
   books:
+    - name: "Bà Nội Găngxtơ"
+      author: "David Walliams"
+    - name: "Bí Ẩn Về Con Chó Lúc Nửa Đêm"
+      author: "Mark Haddon"
     - name: "Hai Số Phận"
       author: "Carlos Ruiz"
     - name: "Bóng Hình Của Gió"
@@ -61,6 +65,10 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "Những Người Khốn Khổ"
+          author: "Victor Hugo"
+        - name: "Rust in Action (chapters 1 - 4)"
+          author: "T. S. McNamara"
         - name: "80 Ngày Vòng Quanh Thế Giới"
           author: "Jules Verne"
         - name: "Những Giấc Mơ Ở Hiệu Sách Morisaki"
