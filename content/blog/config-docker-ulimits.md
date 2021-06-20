@@ -9,12 +9,24 @@ date: 2021-06-21T03:47:50+09:00
 
 ## Issues
 
-- [https://github.com/docker/for-linux/issues/541]
-- [https://github.com/docker-library/mysql/issues/579]
+- <https://github.com/docker/for-linux/issues/541>
+- <https://github.com/docker-library/mysql/issues/579>
 
 ## Solution
 
-An example of `/etc/docker/daemon.json`:
+Configure `ulimits` of one container in `docker-compose.yml`:
+
+```yaml
+services:
+  <container>:
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+```
+
+Or, make it default for all new containers by modifying
+`/etc/docker/daemon.json`:
 
 ```json
 {
@@ -27,4 +39,13 @@ An example of `/etc/docker/daemon.json`:
     }
   }
 }
+```
+
+then, run:
+
+```sh
+$ sudo systemctl restart --now docker
+$ docker run --rm ubuntu:20.04 bash -c 'ulimit -Hn && ulimit -Sn'
+262144
+262144
 ```
