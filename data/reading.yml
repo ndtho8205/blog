@@ -65,6 +65,8 @@ alreadyRead:
   years:
     - year: 2021
       books:
+        - name: "Kumo Desu ga, Nanika? (volumes 1 - 11)"
+          author: "Okina Baba, Tsukasa Kiryu"
         - name: "Những Người Khốn Khổ"
           author: "Victor Hugo"
         - name: "Rust in Action (chapters 1 - 4)"
